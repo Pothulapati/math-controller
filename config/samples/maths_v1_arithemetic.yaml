@@ -1,0 +1,7 @@
+apiVersion: maths.stream.com/v1
+kind: Arithemetic
+metadata:
+  name: multiplication-1
+spec:
+  # Add fields here
+  expression: "2*3"

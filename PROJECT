@@ -1,0 +1,7 @@
+domain: stream.com
+repo: math-controller
+resources:
+- group: maths
+  kind: Arithemetic
+  version: v1
+version: "2"

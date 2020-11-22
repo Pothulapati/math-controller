@@ -1,0 +1,7 @@
+apiVersion: maths.stream.com/v1
+kind: Arithemetic
+metadata:
+  name: second
+spec:
+  # Add fields here
+  expression: "(2*3)+(100*5)+100"

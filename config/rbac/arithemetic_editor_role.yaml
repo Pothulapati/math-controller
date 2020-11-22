@@ -1,0 +1,24 @@
+# permissions for end users to edit arithemetics.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: arithemetic-editor-role
+rules:
+- apiGroups:
+  - maths.stream.com
+  resources:
+  - arithemetics
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - maths.stream.com
+  resources:
+  - arithemetics/status
+  verbs:
+  - get
